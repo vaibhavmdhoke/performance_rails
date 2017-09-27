@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PerformanceRails</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  	 <div class="container">
+        <nav role="navigation">
+          <ul class="nav nav-pills pull-right">
+            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+          </ul>
+        </nav>
+        <span class="logo"></span>
+
+
+      <main role="main">
+      </main>
+
+    </div> 
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
